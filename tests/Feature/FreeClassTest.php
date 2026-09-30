@@ -54,6 +54,9 @@ class FreeClassTest extends TestCase
             ->assertSee('images/vtv-logo.webp', false)
             ->assertDontSee('Book a Free Demo')
             ->assertDontSee('Book Free Demo')
-            ->assertSee('class="demo-whatsapp" href="https://wa.me/919999373837"', false);
+            ->assertSee('0120-4033740')
+            ->assertSee('tel:+911204033740', false)
+            ->assertDontSee('wa.me', false)
+            ->assertDontSee('WhatsApp');
     }
 }

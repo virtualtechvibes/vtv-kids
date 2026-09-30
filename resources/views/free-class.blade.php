@@ -18,7 +18,7 @@
                         <h2>Your free-class request is in!</h2>
                         <p>{{ session('inquiry_success') }}</p>
                         <div class="next-step-note"><x-icon name="phone"/><span>We’ll call to understand your child’s needs and confirm a suitable class time.</span></div>
-                        <a class="button button-red" href="https://wa.me/919999373837">Chat with us on WhatsApp <x-icon name="chat"/></a>
+                        
                         <a class="text-link" href="{{ route('home') }}">Back to the academy <x-icon/></a>
                     </div>
                 @else

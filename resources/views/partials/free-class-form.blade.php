@@ -28,7 +28,7 @@
             @endforeach
         </div>
         <div class="field">
-            <label for="phone">Parent’s mobile / WhatsApp number <span>*</span></label>
+            <label for="phone">Parent’s mobile number <span>*</span></label>
             <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Your 10-digit mobile number" value="{{ old('phone') }}" maxlength="15" pattern="(?:\+91[ \-]?)?[6-9][0-9]{9}" required aria-describedby="phone-help" @error('phone') aria-invalid="true" @enderror>
             <small id="phone-help">We’ll contact you to arrange your free class. Optional +91 prefix.</small>
         </div>

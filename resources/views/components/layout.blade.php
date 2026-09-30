@@ -25,7 +25,7 @@
                 <x-brand/>
                 <nav class="booking-support" aria-label="Booking support">
                     <a href="{{ route('home') }}">Back to home</a>
-                    <a href="tel:+919999373837" aria-label="Call support on 9999373837"><x-icon name="phone"/><span class="support-label">Need help? 9999373837</span></a>
+                    <a href="tel:+911204033740" aria-label="Call support on 0120-4033740"><x-icon name="phone"/><span class="support-label">Need help? 0120-4033740</span></a>
                 </nav>
             </div>
         </header>

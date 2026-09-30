@@ -20,7 +20,7 @@
             </div>
             <div class="hero-actions">
                 <a class="button button-red" data-program-cta data-base-url="{{ route('free-class') }}" href="{{ route('free-class', ['program' => 'Tuition']) }}">Try a free class <x-icon/></a>
-                <a class="hero-phone" href="https://wa.me/919999373837"><x-icon name="chat"/> Talk to us</a>
+                
             </div>
             <p class="hero-reassurance"><x-icon name="shield"/> Meet the teacher. Explore the approach. No commitment.</p>
         </div>
