@@ -1,0 +1,18 @@
+<section class="calm-section discovery-section" id="discover" aria-labelledby="discovery-title">
+<div class="wrap discovery-box">
+    <div class="discovery-copy"><p class="little-label">LITTLE EXPLORERS. BIG DISCOVERIES.</p><h2 id="discovery-title">A little maths.<br>A little magic.<br>A lot of <span>“aha!”</span></h2><p>Maths, Computers and AI are our special focus. Every school subject gets the care it deserves.</p><div class="all-subjects"><span>Maths</span><span>Computers</span><span>AI · 7+</span><span>English</span><span>Hindi</span><span>Science</span><span>Social Studies</span></div><small>All-subject tuition from Prep to Class 8.</small></div>
+    <div class="discovery-lab" data-discovery-lab>
+        <div class="discovery-tabs" role="tablist" aria-label="Choose a mini activity" hidden><button type="button" id="maths-tab" role="tab" aria-controls="maths-panel" aria-selected="true" data-subject="maths">123 <span>Maths</span></button><button type="button" id="computer-tab" role="tab" aria-controls="computer-panel" aria-selected="false" tabindex="-1" data-subject="computer">&lt;/&gt; <span>Computers</span></button><button type="button" id="ai-tab" role="tab" aria-controls="ai-panel" aria-selected="false" tabindex="-1" data-subject="ai">✧ <span>AI</span></button></div>
+        <div id="maths-panel" class="discovery-panel maths-panel" role="tabpanel" aria-labelledby="maths-tab" tabindex="0">
+            <span class="activity-label">LET’S THINK TOGETHER</span><h3>Can you make five?</h3>
+            <div class="maths-equation" aria-label="Two plus three equals what?"><span class="count-dots"><i></i><i></i></span><b>+</b><span class="count-dots"><i></i><i></i><i></i></span><b>=</b><span class="equation-answer" data-maths-result>?</span></div>
+            <p>Count the dots. Then choose your answer.</p><div class="maths-answers" hidden><button type="button" data-total="4">4</button><button type="button" data-total="5">5</button><button type="button" data-total="6">6</button></div><p class="activity-feedback" data-maths-feedback role="status">Take your time. You’ve got this.</p><noscript><p>Two dots plus three dots makes five!</p></noscript>
+        </div>
+        <div id="computer-panel" class="discovery-panel computer-panel" role="tabpanel" aria-labelledby="computer-tab" tabindex="0" hidden>
+            <span class="activity-label">YOU’RE THE DIRECTOR</span><h3>Give a computer a command.</h3><div class="little-terminal"><span>my_first_program</span><code>say("Hello, world!")</code><div class="terminal-output" data-code-output aria-live="polite">Ready when you are…</div></div><button type="button" class="activity-button" data-run-code>Run my code <span aria-hidden="true">▶</span></button><p class="activity-feedback">Computers follow instructions. This one says hello!</p>
+        </div>
+        <div id="ai-panel" class="discovery-panel ai-panel" role="tabpanel" aria-labelledby="ai-tab" tabindex="0" hidden>
+            <span class="activity-label">BETTER QUESTIONS. BIGGER IDEAS.</span><h3>Help a story idea grow.</h3><div class="little-robot" aria-hidden="true"><i></i><span>• •</span><b>⌣</b></div><label class="story-prompt" for="story-setting">Imagine a friendly robot in…</label><div class="story-controls"><select id="story-setting"><option value="space">Space</option><option value="garden">A garden</option><option value="ocean">The ocean</option></select><button type="button" class="activity-button" data-make-story>Create an idea ✧</button></div><p class="story-output" data-story-output role="status">Choose a place. See how a detail changes the idea.</p><small>A playful example with prepared ideas, not a live AI chat. AI classes: age 7+.</small>
+        </div>
+    </div>
+</div></section>

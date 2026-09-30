@@ -1,0 +1,56 @@
+{
+  "_fonts-BIrAFP05.css": {
+    "file": "assets/fonts-BIrAFP05.css",
+    "src": "_fonts-BIrAFP05.css"
+  },
+  "_nunito-sans-400-normal-AkRraKH2.woff2": {
+    "file": "assets/nunito-sans-400-normal-AkRraKH2.woff2",
+    "src": "_nunito-sans-400-normal-AkRraKH2.woff2"
+  },
+  "_nunito-sans-400-normal-DY9yCUyQ.woff": {
+    "file": "assets/nunito-sans-400-normal-DY9yCUyQ.woff",
+    "src": "_nunito-sans-400-normal-DY9yCUyQ.woff"
+  },
+  "_nunito-sans-500-normal-BkymD7ni.woff": {
+    "file": "assets/nunito-sans-500-normal-BkymD7ni.woff",
+    "src": "_nunito-sans-500-normal-BkymD7ni.woff"
+  },
+  "_nunito-sans-500-normal-DlmaWqTx.woff2": {
+    "file": "assets/nunito-sans-500-normal-DlmaWqTx.woff2",
+    "src": "_nunito-sans-500-normal-DlmaWqTx.woff2"
+  },
+  "_nunito-sans-600-normal-BtVRvDNj.woff2": {
+    "file": "assets/nunito-sans-600-normal-BtVRvDNj.woff2",
+    "src": "_nunito-sans-600-normal-BtVRvDNj.woff2"
+  },
+  "_nunito-sans-600-normal-DLks-Kj1.woff": {
+    "file": "assets/nunito-sans-600-normal-DLks-Kj1.woff",
+    "src": "_nunito-sans-600-normal-DLks-Kj1.woff"
+  },
+  "_nunito-sans-700-normal-CICRJDmU.woff2": {
+    "file": "assets/nunito-sans-700-normal-CICRJDmU.woff2",
+    "src": "_nunito-sans-700-normal-CICRJDmU.woff2"
+  },
+  "_nunito-sans-700-normal-CLVG92B9.woff": {
+    "file": "assets/nunito-sans-700-normal-CLVG92B9.woff",
+    "src": "_nunito-sans-700-normal-CLVG92B9.woff"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CVk8kpW6.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-76_pWhMz.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-CmbOnv2o.css"
+    ]
+  }
+}
